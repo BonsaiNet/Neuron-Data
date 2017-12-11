@@ -34,7 +34,7 @@ unidecode
 After installing, open a note book and write:
 
 ```python
-import dnm
+import download_neurmorpho as dnm
 neurons = dnm.download_neuromorpho(start_nmo=0, end_nmo=10)
 ```
 
