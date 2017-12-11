@@ -17,7 +17,7 @@ $ cd Download-neuromorpho.org/
 ```
 
 ### Dependencies
-
+```python
 urllib
 ast
 numpy
@@ -27,3 +27,4 @@ json
 urllib2
 bs4
 unidecode
+```
