@@ -1,9 +1,7 @@
-import sys
 import urllib
 import ast
 import numpy as np
 import pandas as pd
-import pickle
 import re
 import json
 from urllib2 import Request, urlopen
@@ -149,4 +147,4 @@ def download_neuromorpho(start_nmo=1, end_nmo=50, show_progress=False):
             errors.append(nmo)
     all_neuron = pd.DataFrame(all_neuron)
     
-    return all_neuron, errors
+    return all_neuron
