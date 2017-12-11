@@ -28,3 +28,14 @@ urllib2
 bs4
 unidecode
 ```
+
+### Usage
+
+After installing, open a note book and write:
+
+```python
+import main
+neurons = main.download_neuromorpho(start_nmo=0, end_nmo=10)
+```
+
+```neurons``` gives the database of all the neuron if the range of downloading.
